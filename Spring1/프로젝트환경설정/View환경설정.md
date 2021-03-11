@@ -16,4 +16,4 @@
 - http요청받으면 return하는 문자열에 해당되는 `template/문자열.html`파일을 찾는다.
 - template 폴더아래에는 thymeleaf 템플릿 엔진을 통해서 입력되는 데이터에 대해서 처리가 가능함. 비즈니스로직이 가능한거구만. jsx마냥
 - 위 동작은 viewresolver가 하고 해당 파일을 찾으면서 model 데이터를 전달한다.
-- 이제 해당 html파일을 렌더링한다.
+- 이제 해당 html파일을 렌더링한다.(html변환해서 웹브에 내려줌)
